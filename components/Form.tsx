@@ -90,7 +90,7 @@ const Form = () => {
         disabled={loader}
         className={`flex items-center max-w-[166px] ${loader && "opacity-50"}`}
       >
-        Let&apos;s Talk
+        Sent Email
         <ArrowRightIcon size={20} />
       </Button>
     </form>
