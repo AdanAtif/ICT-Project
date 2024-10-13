@@ -32,7 +32,7 @@ const Services = () => {
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
-          What are web page's made of?
+          What are web page&apos;s made of?
         </h2>
         {/* grid items */}
         <div className="grid xl:grid-cols-3 xl:gap-x-8 justify-center gap-y-12 xl:gap-y-24">

@@ -86,11 +86,11 @@ const Work = () => {
       <div className="container mx-auto">
         {/* text */}
         <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
-          <h2 className="section-title mb-4">Domain Name's</h2>
+          <h2 className="section-title mb-4">Domain Name&apos;s</h2>
           <p className="subtitle mb-8">
             A domain name refers to your website address. This is what users
-            type in a browser's search bar to directly access your website. A
-            domain name is unique and cannot be shared between different sites
+            type in a browser&apos;s search bar to directly access your website.
+            A domain name is unique and cannot be shared between different sites
           </p>
           <Link href="/">
             <Button>All main domain's</Button>
