@@ -17,82 +17,64 @@ import ProjectCard from "@/components/ProjectCard";
 const projectData = [
   {
     image: "/work/3.png",
-    category: "react js",
-    name: "Nexa Website",
+    category: ".Com",
+    name: "Commercial",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Com is used by businesses, organizations, and individuals for various purposes.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/4.png",
-    category: "react js",
-    name: "Slostice Website",
+    category: ".Org",
+    name: "organization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Org is used by non-profit organizations like educational institutions, community groups.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/2.png",
-    category: "Next js",
-    name: "Lumina Website",
+    category: ".Net",
+    name: "Internet",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Net is used by networking services such as Internet service providers and infrastructure companies.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/1.png",
-    category: "next js",
-    name: "Evolve Website",
+    category: ".Mil",
+    name: "Military",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Mil is used by military of different countries for their official websites.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/3.png",
-    category: "next js",
-    name: "Ignite Website",
+    category: ".Edu",
+    name: "Education",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Edu is used by educational institutions like schools, colleges, and universities.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/4.png",
-    category: "next js",
-    name: "Envision Website",
+    category: ".Gov",
+    name: "Government",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Gov is used by government agencies and departments of different countries.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/1.png",
-    category: "fullstack",
-    name: "Serenity Website",
+    category: ".Int",
+    name: "International",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "fullstack",
-    name: "Nova Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "fullstack",
-    name: "Zenith Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis",
+      ".Int is used by international organizations like the United Nations.",
     link: "/",
     github: "/",
   },
@@ -104,12 +86,14 @@ const Work = () => {
       <div className="container mx-auto">
         {/* text */}
         <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
-          <h2 className="section-title mb-4">Latest Projects</h2>
+          <h2 className="section-title mb-4">Domain Name's</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elt.
+            A domain name refers to your website address. This is what users
+            type in a browser's search bar to directly access your website. A
+            domain name is unique and cannot be shared between different sites
           </p>
-          <Link href="/projects">
-            <Button>All Project</Button>
+          <Link href="/">
+            <Button>All main domain's</Button>
           </Link>
         </div>
         {/* slider */}

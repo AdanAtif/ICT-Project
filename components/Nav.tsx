@@ -9,8 +9,7 @@ interface NavProps {
 }
 const link = [
   { path: "/", name: "home" },
-  { path: "/projects", name: "my projects" },
-  { path: "/contact", name: "contact" },
+  { path: "/contact", name: "example" },
 ];
 const Nav: React.FC<NavProps> = ({
   containerStyles,

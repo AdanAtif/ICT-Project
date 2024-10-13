@@ -30,12 +30,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             >
               <Link2Icon className="text-white" />
             </Link>
-            <Link
-              href={project.github}
-              className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0  group-hover:scale-100 opacity-0 group-hover:opacity-100 transition-all duration-300"
-            >
-              <Github className="text-white" />
-            </Link>
           </div>
         </div>
       </CardHeader>
