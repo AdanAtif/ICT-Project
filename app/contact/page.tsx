@@ -13,10 +13,10 @@ const Contacts = () => {
               <span className="w-[30px] h-[2px] bg-primary"></span>
               Say Hello 👋
             </div>
-            <h1 className="h1 max-w-md mb-8">Let&apos;s Work Together</h1>
+            <h1 className="h1 max-w-md mb-8">Let&apos;s look at an example</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-              aperiam?
+              Here we will sent an email to the developer to get the example of
+              how JavaScript framework works.
             </p>
           </div>
           {/* illustration  */}
@@ -29,17 +29,17 @@ const Contacts = () => {
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>adanatif60@gmail.com</div>
+              <div>Example</div>
             </div>
             {/* address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>13 Block, New Garden Block,Saeed Colony 2,FSD,Punjab,Pk</div>
+              <div>example@gmail.com</div>
             </div>
             {/* phone */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+92 302 6894322</div>
+              <div>Hello there is an example of how to javascript works</div>
             </div>
           </div>
           <Form />

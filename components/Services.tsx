@@ -10,21 +10,21 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Html",
     description:
-      "Lorem ipsum dolor sit amet consectetur asipisicing elit. Doloremque , repellat?",
+      "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Development",
+    title: "CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur asipisicing elit. Doloremque , repellat?",
+      "CSS stands for “Cascading Style Sheets”. CSS is used for laying out and structuring web pages.It is used for styling web pages.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "App Development",
+    title: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur asipisicing elit. Doloremque , repellat?",
+      "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.",
   },
 ];
 const Services = () => {
@@ -32,7 +32,7 @@ const Services = () => {
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
-          My Services
+          What are web page&apos;s made of?
         </h2>
         {/* grid items */}
         <div className="grid xl:grid-cols-3 xl:gap-x-8 justify-center gap-y-12 xl:gap-y-24">
