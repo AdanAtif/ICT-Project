@@ -93,7 +93,7 @@ const Work = () => {
             A domain name is unique and cannot be shared between different sites
           </p>
           <Link href="/">
-            <Button>All main domain's</Button>
+            <Button>All main domain&apos;s</Button>
           </Link>
         </div>
         {/* slider */}
