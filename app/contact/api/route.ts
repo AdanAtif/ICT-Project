@@ -21,11 +21,11 @@ export const POST = async (req: Request) => {
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: "adanatif60@gmail.com",
-      subject: "Portfolio Message",
-      text: `This user wants to contact you: ${name}`,
+      to: `${email}`,
+      subject: "Example Message",
+      text: `This is an example message by: ${name}`,
       html: `<div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
-               <p>${name} wants to contact you. Their email is <b>${email}</b>.</p>
+               <p> Hello <b>${name} </b> .</p>
                <p>Message:</p>
                <p style="margin-left: 20px; border-left: 4px solid #0070f3; padding-left: 10px;">${message}</p>
              </div>`,
