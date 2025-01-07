@@ -1,8 +1,6 @@
-import Link from "next/link";
 import { RiArrowDownSLine, RiBriefcase4Fill, RiTodoFill } from "react-icons/ri";
 import { Button } from "./ui/button";
 import { Send, Download } from "lucide-react";
-import Socials from "./Socials";
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 

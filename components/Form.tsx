@@ -7,6 +7,8 @@ import toast from "react-hot-toast";
 import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 
 import axios from "axios";
+import { db } from "database/db";
+import { addDoc, collection } from "firebase/firestore";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -35,6 +37,12 @@ const Form = () => {
       let email = formData.email;
       let message = formData.message;
       setLoader(true);
+      await addDoc(collection(db, "formSubmissions"), {
+        name,
+        email,
+        message,
+        timestamp: new Date(),
+      });  
       const res = await axios.post("contact/api", { name, email, message });
       if (res.data.status) {
         toast.success(res.data.message);
