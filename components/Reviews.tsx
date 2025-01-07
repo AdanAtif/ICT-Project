@@ -1,19 +1,11 @@
 "use client";
-
-import Image from "next/image";
 import { Card, CardHeader, CardDescription, CardTitle } from "./ui/card";
-
-// import swiper react components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// import swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import required modules
 import { Pagination } from "swiper/modules";
 
-// Data for how webpages work
 const webPageData = [
   {
     image: `/about/domain.png`,

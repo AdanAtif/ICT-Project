@@ -10,6 +10,7 @@ export const POST = async (req: Request) => {
         { status: false, message: "invalid credentials" },
         { status: 400 }
       );
+      
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
